@@ -45,17 +45,15 @@ router.get('/:id', (req, res) => {
 
 router.post('/upload', (req, res) => {
     const { title, description, videoUrl } = req.body;
-
-    if (!videoUrl) {
-        return res.status(400).json({ message: "Video URL is required" });
-    }
+    console.log('Received upload request:', req.body); 
 
     const videos = readVideoData();
     const newVideo = {
         id: uuidv4(), 
         title: title || "Untitled Video",
+        channel: "Mohan Muruge",
+        image: '../public/images/Upload-video-preview.jpg', 
         description: description || "No description provided.",
-        thumbnail: '../public/images/Upload-video-preview.jpg', 
         views: "0",
         likes: "0",
         duration: "0:00",  
