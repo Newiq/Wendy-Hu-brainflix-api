@@ -52,7 +52,7 @@ router.post('/upload', (req, res) => {
         id: uuidv4(), 
         title: title || "Untitled Video",
         channel: "Mohan Muruge",
-        image: '../public/images/Upload-video-preview.jpg', 
+        image: '/images/Upload-video-preview.jpg', 
         description: description || "No description provided.",
         views: "0",
         likes: "0",
