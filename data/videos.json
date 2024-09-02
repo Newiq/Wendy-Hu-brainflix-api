@@ -294,19 +294,6 @@
     ]
   },
   {
-    "id": "fbd7dfdb-e378-4499-a5c4-7d5258fd2f07",
-    "title": "My video!!!",
-    "channel": "Mohan Muruge",
-    "image": "/images/Upload-video-preview.jpg",
-    "description": "123",
-    "views": "0",
-    "likes": "0",
-    "duration": "0:00",
-    "video": "https://unit-3-project-api-0a5620414506.herokuapp.com/stream",
-    "timestamp": 1725042274015,
-    "comments": []
-  },
-  {
     "id": "96aff116-9d52-4a99-9df9-ec96d0b07c8a",
     "title": "My video!!!",
     "channel": "Mohan Muruge",
@@ -321,7 +308,7 @@
   },
   {
     "id": "fdeb02c1-e0b0-4b78-8772-8bbf94ab3b46",
-    "title": "My video!!!",
+    "title": "My video2!!!",
     "channel": "Mohan Muruge",
     "image": "/images/Upload-video-preview.jpg",
     "description": "another test",
